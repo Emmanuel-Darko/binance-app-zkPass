@@ -16,7 +16,7 @@
       <h2 class="font-bold text-2xl">💲Binance User and Trade Verification</h2>
       
       <button @click="checkAndVerify()" class="mt-10 py-5 px-20 rounded-lg text-black text-xl bg-green-500">
-        <span v-if="loadingUser && loadingTrade" class="flex items-center gap-5">
+        <span v-if="loadingUser || loadingTrade" class="flex items-center gap-5">
           <span>Please wait</span>
           <LodingVertical />
         </span>
