@@ -17,10 +17,12 @@ Before running this project, ensure you have the following installed:
    git clone https://github.com/your-repo/binance-verification-zkpass.git
 
 2.  **Install dependencies**
-    ##npm install @zkpass/transgate-js-sdk
-    ##yarn add @zkpass/transgate-js-sdk
+    ```bash
+    npm install @zkpass/transgate-js-sdk
+    yarn add @zkpass/transgate-js-sdk
 
 3. **Run project**
-    ##npm run dev**
-    OR
-    ##yarn dev**
+    ```bash
+    npm run dev
+    
+    yarn dev
